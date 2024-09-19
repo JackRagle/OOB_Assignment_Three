@@ -11,6 +11,7 @@ public class Unit {
 		this.scalar = scalar;
 		result = 0;
 	}
+	//Constructs an object with a unitType and a scalar value. Result is set to 0
 	
 	public void Convert() {
 		if(unitType == 1) {
@@ -46,4 +47,6 @@ public class Unit {
 			System.out.println(scalar + " Millileter(s) is equal to " + result + " Ounce(s)\n");
 		}
 	}
+	//Determines which calculation to do based on the user input, converts the scalar input, and prints it
+	
 }
